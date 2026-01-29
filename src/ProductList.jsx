@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ProductList.css";
 import CartItem from "./CartItem";
 
+
 // ✅ Redux
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "./CartSlice"; // ถ้า path ต่าง ปรับให้ตรง
